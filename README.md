@@ -19,7 +19,7 @@ git clone https://github.com/robvan2/project-563123.git
 For this readme i'am assuming you're using intellij. Wait for Maven to resolve all the dependencies then :
 
 #### b) Add Lombok plugin to your Ide:
-this link shows you how to [Lombok Intellij](https://projectlombok.org/setup/intellij). 
+This link shows you how to [Lombok Intellij](https://projectlombok.org/setup/intellij). 
 Then in your project: Click <kbd>Preferences</kbd> -> <kbd>Build, Execution, Deployment</kbd> -> <kbd>Compiler, Annotation Processors</kbd>. Click <kbd>Enable Annotation Processing</kbd>
 Afterwards you might need to do a complete rebuild of your project via <kbd>Build</kbd> -> <kbd>Rebuild Project</kbd>.
 
