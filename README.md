@@ -8,7 +8,7 @@ This is a users management system
 
 Start by cloning project with
 ```
-git clone https://github.com/robvan2/project.git
+git clone https://github.com/robvan2/project-563123.git
 ```
 
 #### a) Open project with your IDE (must have Maven)
