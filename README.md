@@ -1,6 +1,10 @@
 # project
 This is a users management system
 
+## Prerequisites:
+- java 15 installed.
+- Java Ide (Intellij Prefered).
+
 ## How to setup
   To setup this project you can follow one of the two following methods
   
