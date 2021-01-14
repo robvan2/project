@@ -42,11 +42,11 @@ public class UserController {
 
     @PostMapping(path = "/{id}")
     public  ResponseEntity<UserDto> updateUser(@Valid @RequestBody UserDto userDto,
-                                              @PathVariable Long id) throws RoleNotFoundException{
+                                              @PathVariable Long id){
         return new ResponseEntity<>(userService.updateUser(userDto,id), HttpStatus.OK);
     }
     @GetMapping(path="/find")
-    public  ResponseEntity<List<UserDto>> findUser(@RequestParam String search) throws RoleNotFoundException{
+    public  ResponseEntity<List<UserDto>> findUser(@RequestParam String search){
         return new ResponseEntity<>(userService.findUser(search), HttpStatus.OK);
     }
     @ResponseStatus(HttpStatus.BAD_REQUEST)
