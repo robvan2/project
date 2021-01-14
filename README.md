@@ -47,4 +47,6 @@ then use username `recruitment` and passsword `563123` (also jdbc url `jdbc:h2:m
 You can change that if you setup project with the 1st method by changing it in application.properties
 
 #### Notes :
-- For authentification I used jwt (/api/checkToken with "Authorization" header (Bearer token) checks the validity of token and /api/logout to invalidate token)
+- For authentification I used jwt 
+- /api/checkToken with "Authorization" header (Bearer token) checks the validity of a token and returns the user
+- /api/logout invalidates the token (must provide Bearer token in Authorization header)
