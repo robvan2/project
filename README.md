@@ -57,3 +57,4 @@ You can change that if you setup the project with the 1st method by changing it 
 - all routes are accessible without authentication except for checkToken and logout.
 - /api/checkToken with "Authorization" header (Bearer token) checks the validity of a token and returns the user.
 - /api/logout invalidates the token (must provide Bearer token in Authorization header).
+- /api/users/find searches for users that contain the searched value in there username or email.
