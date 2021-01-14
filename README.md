@@ -1,7 +1,7 @@
 # project
 This is a users management system
 
-## Prerequisites:
+## Prerequisites
 - java 15 installed.
 - Java Ide (Intellij Prefered).
 
