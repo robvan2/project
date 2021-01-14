@@ -11,10 +11,10 @@ Start by cloning project with
 git clone https://github.com/robvan2/project.git
 ```
 
-#### a) Open project with your Idea (must have Maven too)
+#### a) Open project with your IDE (must have Maven)
 For this readme i'am assuming you're using intellij. Wait for Maven to resolve all the dependencies then :
 
-#### b) Add Lombok plugin to your Idea:
+#### b) Add Lombok plugin to your Ide:
 this link shows you how to [Lombok Intellij](https://projectlombok.org/setup/intellij).
 
 #### c) Ready to go:
@@ -44,9 +44,10 @@ http://localhost:8080/swagger-ui.html
 #### H2 Database :
 It's an in memory database. To access the console use `http://localhost:8080/h2-console/`,
 then use username `recruitment` and passsword `563123` (also jdbc url `jdbc:h2:mem:recruitment`).
-You can change that if you setup project with the 1st method by changing it in application.properties
+You can change that if you setup the project with the 1st method by changing it in application.properties
 
 #### Notes :
-- For authentification I used jwt 
-- /api/checkToken with "Authorization" header (Bearer token) checks the validity of a token and returns the user
-- /api/logout invalidates the token (must provide Bearer token in Authorization header)
+- For authentification I used jwt
+- all routes are accessible without authentication except for checkToken and logout.
+- /api/checkToken with "Authorization" header (Bearer token) checks the validity of a token and returns the user.
+- /api/logout invalidates the token (must provide Bearer token in Authorization header).
